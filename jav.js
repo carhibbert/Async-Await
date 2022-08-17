@@ -14,7 +14,7 @@ async function printRandomNumber() {
 printRandomNumber()
 
 async function getCityData(city) {
-    const AUTH_KEY ='186000864844051202681x117219'
+    const AUTH_KEY =''
     const url = `https://geocode.xyz/${city}?json=1&auth=${AUTH_KEY}`
     const response = await fetch(url)
     const data = await response.json()
